@@ -14,16 +14,22 @@
 }
 .hoverMe {
   grid-area: hover;
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: rebeccapurple;
+  border-color:rebeccapurple;
   width: 150px;
   text-align: center;
   height: 50px;
-  /* Add the css property transition here! */
+  transition: 0.3s;
 
 }
 /* active state */
 .hoverMe:hover {
-  /* Add your hover state css here. */
+  background-color: rebeccapurple;
+  color: white;
+  letter-spacing: 5px;
+  width: 160px;
+  font-size: 15px;
+  text-decoration: underline;
 
 }
