@@ -6,8 +6,39 @@
     background-size: cover;
 }
 
-#hero .jumbotron, #hero .bg-light {
-    background: url(../images/mountains.png);
-    background-repeat:no-repeat;
-    height: vh;
+.jumbotron {
+    display: flex;
+    background-color: transparent !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#adventure h2 {
+    color: black;
+    font-size: 58px;
+    text-align: center;
+}
+
+
+#adventure h2 span {
+    color: #FF9900;
+    font-size: 37px;
+    display: block;
+    
+}
+
+
+.adventure-item {
+    height:600px;
+    padding:50px 20px;
+    align-items: center;
+}
+
+.display-4 {
+    color: white;
+    display: block !important;
+}
+
+.lead {
+    display: block !important;
 }
